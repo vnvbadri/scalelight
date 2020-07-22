@@ -38,7 +38,7 @@ services:
   #  volumes:
   #    - /mnt/recording/published:/var/bigbluebutton/published
   #    - /etc/ssl:/etc/nginx/ssl:ro
-      - greenlight.nginx:/etc/bigbluebutton/nginx/greenlight.nginx
+  #    - greenlight.nginx:/etc/bigbluebutton/nginx/greenlight.nginx
     ports:
       - "80:80"
       - "443:443"
